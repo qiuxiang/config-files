@@ -1,0 +1,9 @@
+[user]
+	name = Qiu Xiang
+	email = xiang.qiu@qq.com
+[credential]
+	helper = store
+[push]
+	default = simple
+[core]
+	excludesfile = ~/.gitignore
