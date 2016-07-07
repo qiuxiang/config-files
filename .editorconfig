@@ -6,5 +6,5 @@ indent_style = space
 indent_size = 2
 end_of_line = lf
 
-[*.{php,py,java,c,h}]
+[*.{php,py,java}]
 indent_size = 4
