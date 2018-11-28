@@ -1,9 +1,9 @@
 [user]
-	name = Qiu Xiang
-	email = i@7c00.cc
+  name = 7c00
+  email = i@7c00.cc
+
 [credential]
-	helper = store
-[push]
-	default = simple
+  helper = store
+
 [core]
-	excludesfile = ~/.gitignore
+  excludesfile = ~/.gitignore
