@@ -19,8 +19,7 @@ return {
     bottom = 0,
   },
   window_frame = {
-    active_titlebar_bg = "#f0f0f0",
-    inactive_titlebar_bg = "#ebebeb",
+    active_titlebar_bg = "#2f343f",
   },
   colors = {
     tab_bar = {
@@ -37,12 +36,12 @@ return {
         fg_color = "#657b83",
       },
       new_tab = {
-        bg_color = "#f0f0f0",
-        fg_color = "#657b83",
+        bg_color = "#2f343f",
+        fg_color = "#fdf6e3",
       },
       new_tab_hover = {
-        bg_color = "#f0f0f0",
-        fg_color = "#657b83",
+        bg_color = "#2f343f",
+        fg_color = "#fdf6e3",
       },
     },
   },
