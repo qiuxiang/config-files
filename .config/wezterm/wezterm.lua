@@ -2,47 +2,17 @@ local wezterm = require 'wezterm';
 
 return {
   initial_cols = 128,
-  initial_rows = 42,
-  color_scheme = "Builtin Solarized Light",
+  initial_rows = 48,
+  color_scheme = "Violet Light",
   font = wezterm.font("Noto Sans Mono CJK SC"),
-  font_size = 10,
-  font_rules= {
+  font_rules = {
     {
       italic = true,
-      font = wezterm.font_with_fallback({"JetBrains Mono", "Noto Sans CJK SC"}, {italic = true}),
+      font = wezterm.font_with_fallback({ "JetBrains Mono" }, { italic = true }),
     },
   },
-  window_padding = {
-    left = 0,
-    right = 0,
-    top = 0,
-    bottom = 0,
-  },
-  window_frame = {
-    active_titlebar_bg = "#2f343f",
-  },
-  colors = {
-    tab_bar = {
-      active_tab = {
-        bg_color = "#fdf6e3",
-        fg_color = "#657b83",
-      },
-      inactive_tab = {
-        bg_color = "#eee8d5",
-        fg_color = "#657b83",
-      },
-      inactive_tab_hover = {
-        bg_color = "#fdf6e3",
-        fg_color = "#657b83",
-      },
-      new_tab = {
-        bg_color = "#2f343f",
-        fg_color = "#fdf6e3",
-      },
-      new_tab_hover = {
-        bg_color = "#2f343f",
-        fg_color = "#fdf6e3",
-      },
-    },
-  },
+  font_size = 12,
+  tab_bar_at_bottom = true,
+  use_fancy_tab_bar = false,
+  window_padding = { left = 0, right = 0, top = 0, bottom = 0 },
 }
